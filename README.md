@@ -71,6 +71,7 @@ SafeJWTUserExpress is an open-source Node.js repository dedicated to providing a
 1. **Clone the Repository:**
 
    - Clone the SafeJWTUserExpress repository to your local machine using the following command:
+
      ```bash
      git clone https://github.com/Toluwalope-Coast/safe-jwt-user-express.git
      ```
@@ -78,27 +79,35 @@ SafeJWTUserExpress is an open-source Node.js repository dedicated to providing a
 2. **Install Dependencies:**
 
    - Navigate to the project directory:
+
      ```bash
      cd safe-jwt-user-express
      ```
+
    - Install the project dependencies using npm:
+
      ```bash
      npm install
      ```
 
 3. **Create .env File:**
+
    - Create a file named `.env` in the root folder of the project.
    - Open the `.env` file and define the following required environment variables:
+
      - `DB_CONNECTION`: Your MongoDB connection URL.
      - `PORT`: Your chosen port number (between 1023 - 65353).
      - `JWT`: A secret key for JSON Web Token (JWT) generation. Use a long, complex, and random alphanumeric string for enhanced security.
        Example:
-     ```env
+
+     ````env
          DB_CONNECTION=your-mongodb-url
          PORT=your-chosen-port-number
-         JWT=your-secret-key
-     ```
-     Optional Environment Variables:
+         JWT=your-secret-key ```
+     ````
+
+   Optional Environment Variables:
+
    - The following environment variables are optional but can be configured based on your needs:
      - `DOMAINS`: Specify allowed domains.
      - `NODE_ENV`: Set the Node.js environment (e.g., 'development', 'production').
@@ -107,6 +116,7 @@ SafeJWTUserExpress is an open-source Node.js repository dedicated to providing a
      - `NODEMAILER_USER`, `NODEMAILER_PASS`: Provide credentials for nodemailer.
      - `NODEMAILER_SUBJECT`: Define a default email subject for nodemailer.
        Example:
+
    ````env
        DOMAINS=your-allowed-domains
        NODE_ENV=development
@@ -118,6 +128,7 @@ SafeJWTUserExpress is an open-source Node.js repository dedicated to providing a
        NODEMAILER_SUBJECT=your-default-email-subject```
 
    ````
+
 4. Run the Application:
    After configuring the environment variables, run the application using:
    `npm run dev`
