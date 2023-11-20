@@ -29,7 +29,6 @@ SafeJWTUserExpress is an open-source Node.js repository dedicated to providing a
   - **body-parser:** Parse incoming request bodies in a middleware.
   - **cookie-parser:** Parse Cookie header and populate `req.cookies` with an object keyed by cookie names.
   - **cors:** Enable Cross-Origin Resource Sharing.
-  - **crypto:** Provide cryptographic functionality, used for generating secure random tokens.
 
 - **Data Encryption:**
 
