@@ -1,6 +1,6 @@
 {
   "name": "safe-jwt-user-express",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Secure, user-friendly Node.js authentication & user management with JWT. Express.js compatible, easy to maintain, works with Mongoose (NoSQL), and soon with Postgres (SQL). Token blacklisting, professional responses, and Postman API docs. Show your support with a star or coffee token!",
   "main": "server.js",
   "type": "module",
